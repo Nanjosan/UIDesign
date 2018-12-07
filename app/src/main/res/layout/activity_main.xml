@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_main" />
+
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="67dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/ic_icon" />
+
+    <Button
+        android:id="@+id/cell_login"
+        android:layout_width="186dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="223dp"
+        android:background="@drawable/shape"
+        android:text="手机号登录"
+        android:textColor="#DD1D00"
+        android:textSize="14dp" />
+
+    <Button
+        android:id="@+id/log_in"
+        android:layout_width="186dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="271dp"
+        android:background="@drawable/shape"
+        android:text="注册"
+        android:textColor="#DB1D00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="105dp"
+        android:text="其他登录方式" />
+
+    <Button
+        android:id="@+id/qq_login"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="217dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_qq"
+        android:text="QQ" />
+
+    <Button
+        android:id="@+id/wx_login"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="318dp"
+        android:layout_marginBottom="25dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_wx"
+        android:text="微信" />
+
+    <Button
+        android:id="@+id/wb_login"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="218dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="26dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_wb"
+        android:text="微博" />
+
+    <Button
+        android:id="@+id/wy_login"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="303dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_wy"
+        android:text="网易邮箱" />
+
+</RelativeLayout>

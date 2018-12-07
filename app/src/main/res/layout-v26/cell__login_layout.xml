@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/cell_login"
+        android:layout_width="252dp"
+        android:layout_height="31dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/shape"
+        android:text="登录"
+        android:textColor="#DD1D00"
+        android:textSize="16sp" />
+
+    <EditText
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="10dp"
+        android:hint="请输入手机号码"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_phone"/>
+
+    <EditText
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="textPassword"
+        android:hint="请输入密码"
+        android:drawableStart="@drawable/ic_lock"
+        android:autofillHints="" />
+</RelativeLayout>
